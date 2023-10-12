@@ -49,7 +49,8 @@ function Hero() {
           className="w-[100%] h-[100%] relative z-[1]"
         /> */}
 
-        <div className={`screen ss:my-[3rem]`}>
+        {/* <div className={`screen ss:my-[3rem]`}> */}
+        <div className={`screen mx-[30px] my-[30px]`}>
           <div className={`screen-image bg-[url('src/assets/mbs.jpg')]`}>
           </div>
           <div className="screen-overlay"></div>

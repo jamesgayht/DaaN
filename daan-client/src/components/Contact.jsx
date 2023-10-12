@@ -1,5 +1,6 @@
 import styles from "../styles";
 import { useState, useRef } from "react";
+import emailJs from "@emailjs/browser";
 
 function Contact() {
   const formRef = useRef();
@@ -19,6 +20,39 @@ function Contact() {
 
     // changes the send button to sending
     setLoading(true);
+
+    emailJs
+      .send(
+        "service_mavv0ab",
+        "template_heq4itm",
+        {
+          from_name: form.name,
+          to_name: "daan",
+          from_email: form.email,
+          to_email: "general@daanpartners.com",
+          message: form.message,
+        },
+        "croljsgvZ-qVPYrTf"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert(
+            "Thank you for reaching out, I will get back to you as soon as possible!"
+          );
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(">>> form submit error: ", error);
+          alert("Something went wrong, please try again.");
+        }
+      );
   };
 
   return (

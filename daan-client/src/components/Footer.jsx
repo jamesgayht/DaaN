@@ -51,7 +51,7 @@ function Footer() {
         <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
           2023 DaaN. All Rights Reserved.
         </p>
-        <div className="flex flex-row md:mt-0 mt-6">
+        {/* <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((media, index) => (
             <img
               key={media.id}
@@ -62,7 +62,7 @@ function Footer() {
               }`}
             />
           ))}
-        </div>
+        </div> */}
       </div>
       {/* END OF COPYRIGHT & SM */}
     </section>
