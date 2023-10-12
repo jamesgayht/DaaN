@@ -8,9 +8,9 @@ function Navbar() {
 
   return (
     <nav
-      className={`w-full flex py-6 justify-between items-center navbar fixed bg-black z-[1] ${styles.paddingX}`}
+      className={`top-0 left-0 w-full flex py-6 justify-between items-center navbar relative bg-none z-[2] ${styles.paddingX}`}
     >
-      {/* <img src={} alt="daan" className="w-[124px] h-[32px]"/> */}
+      {/* <img src={daan} alt="daan" className="w-[124px] h-[32px]"/> */}
       <a href={`#${""}`} className="text-stone-100 font-normal cursor-pointer">
         DaaN
       </a>

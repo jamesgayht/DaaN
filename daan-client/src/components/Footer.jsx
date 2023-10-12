@@ -1,4 +1,4 @@
-import { airbnb } from "../assets";
+import { daan } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 import styles from "../styles";
 
@@ -6,22 +6,22 @@ function Footer() {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       {/* LOGO & LINKS */}
-      <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
+      {/* <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}> */}
         {/* LOGO */}
-        <div className="flex-1 flex flex-col justify-start mr-10">
+        {/* <div className="flex-1 flex flex-col justify-start mr-10">
           <img
-            src={airbnb}
+            src={daan}
             alt="DaaN"
             className="w-[266px] h-[72px] object-contain"
           />
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
-        </div>
+        </div> */}
         {/* END OF LOGO */}
 
         {/* LINKS */}
-        <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+        {/* <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerLink) => (
             <div className="" key={footerLink.key}>
               <h4 className="text-white font-poppins font-medium text-[18px] leading-[27px]">
@@ -41,10 +41,10 @@ function Footer() {
               </ul>
             </div>
           ))}
-        </div>
+        </div> */}
         {/* END OF LINKS */}
-      </div>
-      {/* END OF LOGO & LINKS */}
+      {/* </div> */}
+      {/* END OF LOGO & LINKS */} 
 
       {/* COPYRIGHT & SM */}
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">

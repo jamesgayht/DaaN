@@ -1,7 +1,4 @@
 import {
-  people01,
-  people02,
-  people03,
   facebook,
   instagram,
   linkedin,
@@ -20,10 +17,10 @@ export const navLinks = [
     id: "features",
     title: "Features",
   },
-  {
-    id: "about",
-    title: "About",
-  },
+  // {
+  //   id: "about",
+  //   title: "About",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -36,21 +33,21 @@ export const features = [
     icon: star,
     title: "Customisation",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet.",
+      "We provide the extra ingredients you need to go from meh to YEAH!",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Satisfaction",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet.",
+      "Life is too short for anything less than 100% satisfaction, let's work together to build what you need!",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Available",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet.",
+      "We will respond within 72 hours of your inquiry, let's chat today!",
   },
 ];
 
@@ -61,7 +58,7 @@ export const feedback = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet.",
     name: "Peyton",
     title: "Co-Founder",
-    img: people01,
+    img: "",
   },
   {
     id: "feedback-2",
@@ -69,7 +66,7 @@ export const feedback = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet.",
     name: "CK",
     title: "Co-Founder",
-    img: people02,
+    img: "",
   },
   {
     id: "feedback-3",
@@ -77,7 +74,7 @@ export const feedback = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet.",
     name: "Brandon",
     title: "Co-Founder",
-    img: people03,
+    img: "",
   },
 ];
 

@@ -7,19 +7,18 @@ function Features() {
   return (
     <section id="features" className={layout.section}>
       {/* GRADIENT */}
-      <div className="absolute z-[0] w-[60%] h-[60%] -left-[50%] rounded-full white__gradient" />
+      {/* <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full white__gradient" /> */}
       {/* END OF GRADIENT */}
 
       {/* FEATURES OFFERING */}
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          About four or five words, <br className="sm:block hidden" />
-          another four or five words.
+          Are your existing <br className="sm:block hidden" />
+          systems too rigid?
         </h2>
         <p className={`${styles.paragraph} font-poppins max-w-[470px] mt-5`}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet,
-          quam non condimentum volutpat, velit nisl tristique neque, vitae
-          efficitur risus felis a justo. Suspendisse potenti. Nulla facilisi.
+          We are able to provide that flexibility specific to your
+          requirements. Drop us a note and we will get in touch ASAP!
         </p>
         <Button styles={`mt-10`} />
       </div>

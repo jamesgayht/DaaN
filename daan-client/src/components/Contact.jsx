@@ -27,7 +27,7 @@ function Contact() {
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient rounded-[20px] box-shadow`}
     >
       {/* GRADIENT */}
-      <div className="absolute z-[0] w-[60%] h-[60%] -left-[50%] rounded-full white__gradient" />
+      <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full white__gradient" />
       {/* END OF GRADIENT */}
 
       <div className="flex-1 flex flex-col font-poppins">
