@@ -108,7 +108,7 @@ function Contact() {
                 name="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="Some things you may want to share."
+                placeholder="Please share your project objectives with us so that we can help you better."
                 className="bg-black py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
             </label>

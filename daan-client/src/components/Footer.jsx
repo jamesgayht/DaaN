@@ -1,4 +1,4 @@
-import { daan } from "../assets";
+import { daan, email, email_blue } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
 import styles from "../styles";
 
@@ -7,8 +7,8 @@ function Footer() {
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       {/* LOGO & LINKS */}
       {/* <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}> */}
-        {/* LOGO */}
-        {/* <div className="flex-1 flex flex-col justify-start mr-10">
+      {/* LOGO */}
+      {/* <div className="flex-1 flex flex-col justify-start mr-10">
           <img
             src={daan}
             alt="DaaN"
@@ -18,10 +18,10 @@ function Footer() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div> */}
-        {/* END OF LOGO */}
+      {/* END OF LOGO */}
 
-        {/* LINKS */}
-        {/* <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+      {/* LINKS */}
+      {/* <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerLink) => (
             <div className="" key={footerLink.key}>
               <h4 className="text-white font-poppins font-medium text-[18px] leading-[27px]">
@@ -42,17 +42,20 @@ function Footer() {
             </div>
           ))}
         </div> */}
-        {/* END OF LINKS */}
+      {/* END OF LINKS */}
       {/* </div> */}
-      {/* END OF LOGO & LINKS */} 
+      {/* END OF LOGO & LINKS */}
 
       {/* COPYRIGHT & SM */}
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
         <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
           2023 DaaN. All Rights Reserved.
         </p>
-        {/* <div className="flex flex-row md:mt-0 mt-6">
-          {socialMedia.map((media, index) => (
+        <div className="flex flex-row md:mt-0 mt-6">
+          <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+            general@daanpartners.com
+          </p>
+          {/* {socialMedia.map((media, index) => (
             <img
               key={media.id}
               src={media.icon}
@@ -61,8 +64,8 @@ function Footer() {
                 index !== media.length - 1 ? "mr-6" : "mr-0"
               }`}
             />
-          ))}
-        </div> */}
+          ))} */}
+        </div>
       </div>
       {/* END OF COPYRIGHT & SM */}
     </section>

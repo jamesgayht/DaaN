@@ -10,10 +10,12 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import daan from "./daan_logo.png";
+import daan from "./daan_white.png";
 import handpick from "./handpick.png";
 import send from "./Send.svg";
 import mbs from "./mbs.jpg";
+import email from "./email.png";
+import email_blue from "./email_blue.png";
 
 export {
   daan,
@@ -32,4 +34,6 @@ export {
   linkedin,
   twitter,
   mbs,
+  email,
+  email_blue,
 };
