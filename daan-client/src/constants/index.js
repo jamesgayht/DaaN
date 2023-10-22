@@ -47,7 +47,7 @@ export const features = [
     icon: send,
     title: "Available",
     content:
-      "We will respond within 72 hours of your inquiry, let's chat today!",
+      "We will respond within 24 hours of your inquiry, let's chat today!",
   },
 ];
 
