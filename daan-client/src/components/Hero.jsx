@@ -1,5 +1,4 @@
 import styles from "../styles";
-import { handpick } from "../assets";
 import GetStarted from "./GetStarted";
 
 function Hero() {
