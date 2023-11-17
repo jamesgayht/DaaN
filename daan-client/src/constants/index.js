@@ -6,6 +6,9 @@ import {
   send,
   shield,
   star,
+  pathfindingvisualizer,
+  expensetracker,
+  dategenie,
 } from "../assets";
 
 export const navLinks = [
@@ -183,4 +186,79 @@ export const socialMedia = [
     icon: linkedin,
     link: "https://www.linkedin.com/",
   },
+];
+
+export const projects = [
+  {
+    title: "Pathfinder Visualizer",
+    description:
+      "Utilizing djikstra's algorithm to find the shortest path from point A to point B",
+    techstack: [
+      { name: "css", color: "blue-text-gradient" },
+      { name: "html", color: "orange-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
+      { name: "jquery", color: "pink-text-gradient" },
+    ],
+    github: "https://github.com/jamesgayht/jamesgayht.github.io",
+    deployment: "https://jamesgayht.github.io/",
+    image: pathfindingvisualizer,
+  },
+  {
+    title: "Expense Tracker",
+    description:
+      "Filter by overseas trips, categories and a dashboard for P3M comparison",
+    techstack: [
+      { name: "mongodb", color: "blue-text-gradient" },
+      { name: "expressjs", color: "orange-text-gradient" },
+      { name: "react", color: "green-text-gradient" },
+      { name: "nodejs", color: "pink-text-gradient" },
+    ],
+    github: "https://github.com/jamesgayht/expense-tracker",
+    deployment: "https://pbj-mlm.vercel.app/",
+    image: expensetracker,
+  },
+  {
+    title: "DateGenie",
+    description: "Generates ideas for dating spots in Singapore!",
+    techstack: [
+      { name: "angular", color: "blue-text-gradient" },
+      { name: "java", color: "orange-text-gradient" },
+      { name: "mysql", color: "green-text-gradient" },
+      { name: "aws-s3", color: "pink-text-gradient" },
+    ],
+    github: "https://github.com/jamesgayht/DateGenie",
+    deployment: "",
+    image: dategenie,
+  },
+];
+
+export class Project {
+  constructor(name, description, tags, image, source_code_link) {
+    this.name = name;
+    this.description = description;
+    this.tags = tags;
+    this.image = image;
+    this.source_code_link = source_code_link;
+  }
+  name;
+  description;
+  tags;
+  image;
+  source_code_link;
+}
+
+export class Tag {
+  constructor(name, color) {
+    this.name = name;
+    this.color = color;
+  }
+  name;
+  color;
+}
+
+export const tagColors = [
+  "blue-text-gradient",
+  "orange-text-gradient",
+  "green-text-gradient",
+  "pink-text-gradient",
 ];

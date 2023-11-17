@@ -16,6 +16,11 @@ import send from "./Send.svg";
 import mbs from "./mbs.jpg";
 import email from "./email.png";
 import email_blue from "./email_blue.png";
+import githubIcon from "./githubIcon.png";
+import pathfindingvisualizer from "./pathfindingvisualizer.png";
+import expensetracker from "./expensetracker.png";
+import dategenie from "./dategenie.png";
+import startup from "./startup.png";
 
 export {
   daan,
@@ -36,4 +41,9 @@ export {
   mbs,
   email,
   email_blue,
+  githubIcon,
+  pathfindingvisualizer,
+  expensetracker,
+  dategenie,
+  startup,
 };

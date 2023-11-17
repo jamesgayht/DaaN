@@ -58,9 +58,9 @@ function Hero() {
         </div>
 
         {/* GRADIENT EFFECT */}
-        <div className="absolute pink__gradient z-0 w-[40%] h-[35%] top-0" />
+        {/* <div className="absolute pink__gradient z-0 w-[40%] h-[35%] top-0" />
         <div className="absolute white__gradient z-1 w-[80%] h-[80%] bottom-40 rounded-full" />
-        <div className="absolute blue__gradient z-0 w-[50%] h-[50%] right-20 bottom-20" />
+        <div className="absolute blue__gradient z-0 w-[50%] h-[50%] right-20 bottom-20" /> */}
         {/* END OF GRADIENT EFFECT */}
       </div>
       {/* END OF HERO IMAGE */}
